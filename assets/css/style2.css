@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.heading {
+    display: block;
+    justify-content: center;
+}
+
+nav {
+    margin: 15px 0px;
+}
+
+nav ul h1 {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+}
+
+nav ul li a {
+    font-size: 20px;
+    padding: 20px;
+}
+
+.hero .banner {
+    background: url("/assets/images/dirtbike.jpeg") center;
+    height: 200px;
+}
+
+.hero .column {
+    display: flex;
+    justify-content: space-evenly;
+}
