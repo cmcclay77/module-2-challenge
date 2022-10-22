@@ -1,8 +1,8 @@
 
 :root {
-  --header-color: rgb(153, 217, 193);
   --background-color: #164d52;
   --h2-background-color: #e9dfdf;
+  --header-color: rgb(153, 217, 193);
   --h2-color: #2c3f49;
 }
 html {
