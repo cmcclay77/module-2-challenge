@@ -1,0 +1,194 @@
+
+:root {
+  --background-color: #164d52;
+  --h2-background-color: #e9dfdf;
+  --header-color: rgb(153, 217, 193);
+  --h2-color: #2c3f49;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: var(--background-color);
+  color: var(--header-color);
+  font-family:'Times New Roman', Times, serif;
+  font-size: 20px;
+  line-height: 1.5;
+}
+header {
+  display: flex;
+  background-color: var(--background-color);
+  color: var(--header-color);
+  justify-content: space-between;
+  align-items: baseline;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+header h1 {
+  font-size: 2.5rem;
+  margin: 2px;
+  background-color: var(--header-color);
+  color: var(--background-color);
+  max-height: 70px;
+  border-radius: 10px;
+  padding-left: 3vw;
+  padding-right: 3vw;
+}
+header nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+header nav ul li {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0 1rem;
+}
+header nav ul li a {
+  color: var(--header-color);
+  text-decoration: underline;
+  font-weight: bold;
+}
+header nav ul li a:hover {
+  color: var(--background-color);
+  background-color: var(--header-color);  
+  text-decoration: none;
+  font-weight: bold;
+  transition-duration: 0.6s;
+  box-shadow: inset 0px -20px 0 0px var(--header-color);
+}
+.heroimg p {
+  display: flex;
+  justify-content: right;
+  font-size: 30px;
+  color: rgb(153, 217, 193);
+}
+.heroimg {
+  height: 30vh;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='12' viewBox='0 0 20 12'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='charlie-brown' fill='%239C92AC' fill-opacity='0.82'%3E%3Cpath d='M9.8 12L0 2.2V.8l10 10 10-10v1.4L10.2 12h-.4zm-4 0L0 6.2V4.8L7.2 12H5.8zm8.4 0L20 6.2V4.8L12.8 12h1.4zM9.8 0l.2.2.2-.2h-.4zm-4 0L10 4.2 14.2 0h-1.4L10 2.8 7.2 0H5.8z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  background-color: #164d52;
+}
+section {
+  display: flex;
+  background-color: var(--h2-background-color);
+  color: var(--header-color);
+  padding: 1rem;
+  width: webkit-fill-available;
+  text-decoration: none;
+}
+section p {
+  padding: 1rem;
+  color: var(--h2-color);
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-decoration: none;
+}
+section h2 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  color: var(--h2-color);
+  padding: 1rem;
+  margin: 0;
+  font-size: 2rem;
+  border-right: 5px solid var(--h2-color);
+  width: 15%;
+  text-align: right;
+  text-decoration: none;
+}
+.main {
+  width: 85%;
+  text-decoration: none;
+}
+.card-holder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  color: #785d5d;
+  width: 28vw;
+  height: 30vh;
+  margin: 1rem;
+  align-content: flex-end;
+  align-items: flex-start;
+  padding: 1rem 0 1rem 1rem;
+  border: 6px solid rgb(76 73 73);
+  border-radius: 30px;
+  justify-content: start;
+  background-image: linear-gradient(hsl(100, 2%, 36%), rgba(100, 80, 80, 0.6)),
+  url(../images/hero-img.jpg);
+}
+.card:hover {
+  background-color: rgb(211, 142, 142);
+  color: var(--h2-background-color);
+  transition-duration: 0.2s;
+  box-shadow: 10px 10px 30px #164d52,
+    5px 5px 10px 1px rgb(50, 10, 10) inset;
+}
+.card:active {
+  background-color: var(--h2-color);
+  color: var(--h2-color);
+  transition-duration: 0.2s;
+  border: 6px solid var(--h2-color);
+  box-shadow: 5px 5px 10px 1px black inset;
+}
+.card a {
+  color: var(--h2-color);
+  text-decoration: none;
+  font-weight: bold;
+  text-align: left;
+}
+section nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}section nav ul li {
+  list-style: none;
+  padding: 0 1rem;
+}
+section nav ul li a {
+  color: var(--h2-color);
+  text-decoration: underline;
+  font-weight: bold;
+}
+section ul li a:hover {
+  color: var(--h2-background-color);
+  text-decoration: none;
+  font-weight: bold;
+  transition-duration: 0.6s;
+  box-shadow: inset 0px -30px 0 0px var(--h2-color);
+}
+.main .card h4 {
+  background-color: rgb(222 205 205);
+  width: min-content;
+  margin: 0;
+  border-radius: 10px;
+}
+.card-holder a {
+  text-decoration: none;
+}
+h4 span {
+  font-size: 0.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 800px) {
+  body {
+    font-size: 1.2rem;
+  }
+}
