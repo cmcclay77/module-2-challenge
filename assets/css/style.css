@@ -1,4 +1,4 @@
-
+/* This selector is to change colors throughout the code */
 :root {
   --background-color: #164d52;
   --h2-background-color: #e9dfdf;
@@ -53,6 +53,7 @@ header nav ul li a {
   text-decoration: underline;
   font-weight: bold;
 }
+/* Nice hover pseuso selector for effect */
 header nav ul li a:hover {
   color: var(--background-color);
   background-color: var(--header-color);  
@@ -63,14 +64,19 @@ header nav ul li a:hover {
 }
 .heroimg p {
   display: flex;
-  justify-content: right;
   font-size: 30px;
   color: rgb(153, 217, 193);
+  float: right;
 }
+/* This section is for the top of the  page to include my profile picture */
 .heroimg {
   height: 30vh;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='12' viewBox='0 0 20 12'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='charlie-brown' fill='%239C92AC' fill-opacity='0.82'%3E%3Cpath d='M9.8 12L0 2.2V.8l10 10 10-10v1.4L10.2 12h-.4zm-4 0L0 6.2V4.8L7.2 12H5.8zm8.4 0L20 6.2V4.8L12.8 12h1.4zM9.8 0l.2.2.2-.2h-.4zm-4 0L10 4.2 14.2 0h-1.4L10 2.8 7.2 0H5.8z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
   background-color: #164d52;
+}
+.profilepic {
+  border-radius: 50%;
+  margin: 5px;
 }
 section {
   display: flex;
@@ -112,6 +118,7 @@ section h2 {
   justify-content: space-around;
   align-items: center;
 }
+/* This section created the cards layout and flag images which have a nice look */
 .card {
   display: flex;
   flex-direction: column;
@@ -129,6 +136,7 @@ section h2 {
   background-image: linear-gradient(hsl(100, 2%, 36%), rgba(100, 80, 80, 0.6)),
   url(../images/flag.png);
 }
+/* pseudo selectors hover and active gave the cards their special effects when moused over and selectd */
 .card:hover {
   background-color: rgb(211, 142, 142);
   color: var(--h2-background-color);
@@ -182,6 +190,7 @@ h4 span {
   font-size: 0.5rem;
   font-family: Arial, Helvetica, sans-serif;
 }
+/* Media Queries allow the format of the page to adjust to different viewport sizes */
 @media screen and (max-width: 600px) {
   body {
     font-size: 1rem;
