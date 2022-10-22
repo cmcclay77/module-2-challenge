@@ -127,7 +127,7 @@ section h2 {
   border-radius: 30px;
   justify-content: start;
   background-image: linear-gradient(hsl(100, 2%, 36%), rgba(100, 80, 80, 0.6)),
-  url(../images/hero-img.jpg);
+  url(../images/flag.png);
 }
 .card:hover {
   background-color: rgb(211, 142, 142);
