@@ -8,10 +8,6 @@ This webpage will be used as a Portfolio for my future Coding Projects.
 
 The live URL is :[Link to Module 2 Challenge](https://cmcclay77.github.io/module-2-challenge)
 
-
-
-://cmcclay77.github.io/module-2-challenge
-
 ## Screenshot
 
 ![Alt text](./assets/images/screencapture-cmcclay77-github-io-module-2-challenge-2022-10-23-13_01_08.png?raw=true "Screenshot")
