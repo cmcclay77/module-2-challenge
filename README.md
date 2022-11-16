@@ -10,7 +10,7 @@ The live URL is :[Link to Module 2 Challenge](https://cmcclay77.github.io/module
 
 ## Screenshot
 
-![Alt text](./assets/images/screencapture-cmcclay77-github-io-module-2-challenge-2022-10-23-13_01_08.png?raw=true "Screenshot")
+![Alt text](./assets/images/screencapture-cmcclay77-github-io-portfolio-project-2022-10-23-13_01_08.png?raw=true "Screenshot")
 
 ## Credits
 
