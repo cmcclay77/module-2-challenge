@@ -6,7 +6,7 @@ This project is a Portfolio of my soon to be completed work samples. This will a
 
 This webpage will be used as a Portfolio for my future Coding Projects.
 
-The live URL is :[Link to Module 2 Challenge](https://cmcclay77.github.io/module-2-challenge)
+The live URL is :[Link to Portfolio Project](https://cmcclay77.github.io/portfolio-project)
 
 ## Screenshot
 
